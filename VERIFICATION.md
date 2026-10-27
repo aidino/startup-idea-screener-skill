@@ -1,8 +1,8 @@
 # Verification: startup-idea-screener-skill
 
-<!-- agent-skill-verification: {"clean": true, "commit": "uncommitted", "fingerprint": "06fba9f2aca685f92cd7b3ca10b2de8dbcfb5ba1c6cad84b9737efd7dd9e1928", "version": "1.0.0"} -->
+<!-- agent-skill-verification: {"clean": true, "commit": "e653d143d2628b3043b31c70a3e085204525377d", "fingerprint": "06fba9f2aca685f92cd7b3ca10b2de8dbcfb5ba1c6cad84b9737efd7dd9e1928", "version": "1.0.0"} -->
 
-Generated: 2026-10-27T02:17:57Z
+Generated: 2026-10-27T02:18:33Z
 
 ## Release evidence
 
