@@ -1,0 +1,53 @@
+{
+  "entries": {
+    "0dcc8a7fa1c442f7841d03c4f36d1bb26e65f0e58f815235890651a8f9f2100e": {
+      "duration_ms": 126.782,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"errors\": [],\n  \"warnings\": []\n}\n"
+    },
+    "18ea051479f74455e2a74a8a56586881ee13a0a0f45101c0258955e4f948a43d": {
+      "duration_ms": 84.241,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"clean\": true,\n  \"issues\": []\n}\n"
+    },
+    "25c8d846fd274dff7e231ba706f935230a834eb59679cd86f1b9bee5c159e345": {
+      "duration_ms": 91.909,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "VALID startup-idea-screener-skill.eval.md\n"
+    },
+    "2bfe192aa80d5b2b3bb2386cce17b21568e03560bbdd445b659e3c2490cf1f77": {
+      "duration_ms": 56.109,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"valid\": true,\n  \"errors\": [],\n  \"warnings\": [\n    \"2 script mention(s) do not say what to do with the file (line 91: scripts/ingest_hunter_clues.py, line 93: scripts/screen_and_reframe.py). Say \\\"Run `python3 scripts/x.py`\\\" explicitly so the agent does not have to guess whether to execute it or read it.\",\n    \"'metadata.created' should be YYYY-MM-DD format (found: '\\\"2026-10-27\\\"')\",\n    \"'metadata.last_reviewed' should be YYYY-MM-DD format (found: '\\\"2026-10-27\\\"')\"\n  ]\n}\n"
+    },
+    "482940276f7f14ac45a5e8987fbcf1fb8a3f112810af4fa1ccc828e1906e0ea2": {
+      "duration_ms": 84.844,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"clean\": true,\n  \"issues\": []\n}\n"
+    },
+    "69c454800819209083e656661819ad226e3f3eeceeac07108b15e3f301cc7b5d": {
+      "duration_ms": 83.248,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "VALID startup-idea-screener-skill.eval.md\n"
+    },
+    "6eeb8da09447f6320a4678d3993d95fa596f4c5da0235b6c881ce0d439d68bff": {
+      "duration_ms": 45.722,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"valid\": true,\n  \"errors\": [],\n  \"warnings\": [\n    \"2 script mention(s) do not say what to do with the file (line 91: scripts/ingest_hunter_clues.py, line 93: scripts/screen_and_reframe.py). Say \\\"Run `python3 scripts/x.py`\\\" explicitly so the agent does not have to guess whether to execute it or read it.\",\n    \"'metadata.created' should be YYYY-MM-DD format (found: '\\\"2026-10-27\\\"')\",\n    \"'metadata.last_reviewed' should be YYYY-MM-DD format (found: '\\\"2026-10-27\\\"')\"\n  ]\n}\n"
+    },
+    "9729e1fa6b5adabd44767d41f50a192487299bb6d375d0f5c260cb58e3ced60b": {
+      "duration_ms": 128.236,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"errors\": [],\n  \"warnings\": []\n}\n"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,49 @@
+skills:
+  - ../../SKILL.md
+
+sandbox:
+  forbidden_files:
+    - "evals/"
+
+tasks:
+  - name: Screens raw startup clues against the Xiaoming Trap and produces Top 3 Concepts and 1 Verifiable MVP Plan
+    setup: rm -rf /tmp/caliper-startup-idea-screener-skill && mkdir -p /tmp/caliper-startup-idea-screener-skill
+    cleanup: rm -rf /tmp/caliper-startup-idea-screener-skill
+    prompt: >
+      Use /startup-idea-screener-skill to screen a clue dataset.
+      Create /tmp/caliper-startup-idea-screener-skill/input.json with niche "B2B Accounting & Consumer Apps"
+      and two clues (one high-pain B2B PDF invoice manual typing clue on Upwork and one desire-tier baby tracker app clue),
+      then run the skill pipeline to write /tmp/caliper-startup-idea-screener-skill/output.json.
+    activates: [startup-idea-screener-skill]
+    expect: >
+      The agent ran the installed skill's scripts/run_pipeline.py to produce the screening dossier
+      and its final reply identifies the winning B2B invoice concept and flags the desire clue as a Xiaoming Trap.
+    assert: |
+      import json
+      from pathlib import Path
+
+      d = json.loads(Path("/tmp/caliper-startup-idea-screener-skill/output.json").read_text())
+      assert all(k in d for k in ("niche", "summary", "ranked_clusters", "top_3_product_concepts", "verifiable_product_direction")), d
+      assert len(d["verifiable_product_direction"]["three_phase_mvp_roadmap"]) == 3, d
+      chk = d["verifiable_product_direction"]["appendix_f_20_item_checklist"]
+      assert sum(len(v) for v in chk.values()) == 20, d
+
+  - name: Reports a structured validation error instead of fabricating a dossier when input file is missing
+    setup: rm -rf /tmp/caliper-startup-idea-screener-skill && mkdir -p /tmp/caliper-startup-idea-screener-skill
+    cleanup: rm -rf /tmp/caliper-startup-idea-screener-skill
+    prompt: >
+      Run /startup-idea-screener-skill on /tmp/caliper-startup-idea-screener-skill/missing-clues.csv
+      and write the output to /tmp/caliper-startup-idea-screener-skill/output.json.
+    activates: [startup-idea-screener-skill]
+    expect: >
+      The agent reports that /tmp/caliper-startup-idea-screener-skill/missing-clues.csv does not exist
+      and does not fabricate a screening dossier.
+    assert: |
+      from pathlib import Path
+
+      p = Path("/tmp/caliper-startup-idea-screener-skill/output.json")
+      assert not p.exists()
+
+  - name: Stays silent on an unrelated request
+    prompt: "Configure a systemd timer to rotate nginx logs daily."
+    activates: []

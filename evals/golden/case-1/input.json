@@ -1,0 +1,100 @@
+{
+  "niche": "B2B Accounting, Agency Ops & Parenting Clues",
+  "clues": [
+    {
+      "id": "c1",
+      "title": "Fear of PDF-to-Excel converter errors forces owners to hire manual typists",
+      "quote": "I have PDF invoices. Each page has between 3 and 10 lines of items. I need someone to type everything by hand — no converter, no software. Converters make mistakes. This must be manual.",
+      "persona_context": "Operations manager / business owner posting on Upwork for manual invoice data entry",
+      "input_data": "Multi-page vendor PDF invoices and 200-page blurry bank statements",
+      "output_data": "Verified Excel/QuickBooks import with cropped visual digit snippets beside every cell",
+      "channel": "upwork_fiverr_repetitive_jobs",
+      "source_url": "https://www.upwork.com/freelance-jobs/apply/Data-entry-quick-turnaround_~022093008623242186177",
+      "source_date": "2026-09-04",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 5.0,
+        "pain_level": 5.0,
+        "current_workaround": 5.0,
+        "willingness_to_pay": 5.0,
+        "market_size": 4.5
+      }
+    },
+    {
+      "id": "c2",
+      "title": "Shopify payout reconciliation nightmare across fees, refunds, and bank deposits",
+      "quote": "The bank deposit never matches the gross order value, so our accounting team ends up spending hours manually reconciling payouts against sales in spreadsheets.",
+      "persona_context": "E-commerce accounting team reconciling Shopify payouts into QuickBooks/ERP",
+      "input_data": "Shopify payout CSV + bank statement + refund logs",
+      "output_data": "Cent-exact journal entry matching gross sales, platform fees, and net bank deposit",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/smallbusiness/comments/1jnznxu/shopify_payouts_are_a_nightmare_to/",
+      "source_date": "2025-03-31",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.5,
+        "pain_level": 4.8,
+        "current_workaround": 4.5,
+        "willingness_to_pay": 4.8,
+        "market_size": 4.2
+      }
+    },
+    {
+      "id": "c3",
+      "title": "Chasing 30 monthly clients for documents across shared folders and spreadsheets",
+      "quote": "Meanwhile you are manually checking folders, marking off spreadsheets, and sending the same request for the third time. When you have 20 or 30 clients it becomes a serious time drain every single month.",
+      "persona_context": "Bookkeeping firm account manager collecting monthly client statements",
+      "input_data": "Shared Drive/Dropbox folders + monthly required document checklist",
+      "output_data": "Auto-inspected file verification (correct month/type) + automated client follow-up",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/Accounting/comments/1sfyd51/how_do_you_handle_getting_documents_from_clients/",
+      "source_date": "2026-04-08",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.2,
+        "pain_level": 4.3,
+        "current_workaround": 4.2,
+        "willingness_to_pay": 4.3,
+        "market_size": 4.0
+      }
+    },
+    {
+      "id": "c4",
+      "title": "Private tutors cost $45-$75/hr while evening homework consumes family nights",
+      "quote": "I charged between $60 and $75 per hour depending on subject... Next year there will be 3 in elementary school and it's already taking all of our evening.",
+      "persona_context": "Elementary & homeschooling parents needing affordable 1-on-1 diagnostic homework help",
+      "input_data": "Photo of child's homework mistake and school rubric",
+      "output_data": "Targeted 1-page printable diagnostic worksheet PDF + parent explanation guide",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/Homeschooling/comments/1bc13pf/private_tutors_at_home_rather_than_teaching_myself/",
+      "source_date": "2025-04-10",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.5,
+        "pain_level": 4.5,
+        "current_workaround": 4.2,
+        "willingness_to_pay": 4.4,
+        "market_size": 4.5
+      }
+    },
+    {
+      "id": "c5",
+      "title": "Indie team built 15+ generic parenting apps and made zero sales",
+      "quote": "Zane messaged a bunch of parents on Facebook but no one really cared. Made 15+ apps and not made a single sale.",
+      "persona_context": "Indie developers building generic desire-tier parenting trackers",
+      "input_data": "Manual daily baby growth / habit logs",
+      "output_data": "Generic growth chart",
+      "channel": "indie_hackers_product_hunt",
+      "source_url": "https://www.indiehackers.com/post/how-me-and-my-team-made-15-apps-and-not-made-a-single-sale-in-2023-4a54253f7",
+      "source_date": "2023-12-01",
+      "need_tier": "desire",
+      "scores": {
+        "frequency": 3.0,
+        "pain_level": 1.8,
+        "current_workaround": 2.0,
+        "willingness_to_pay": 1.2,
+        "market_size": 4.0
+      }
+    }
+  ]
+}

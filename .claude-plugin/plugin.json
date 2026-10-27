@@ -1,0 +1,8 @@
+{
+  "name": "startup-idea-screener-skill",
+  "version": "1.0.0",
+  "description": "Screen, cluster, and reframe raw startup pain points from startup-idea-hunter-skill (CSV or JSON) into 3 evidence-backed product concepts and 1 verifiable MVP direction using the Easy-Vibe Stage 1B methodology.",
+  "author": {
+    "name": "aidino"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "question": "Among the raw pain points harvested by startup-idea-hunter-skill, which opportunity clusters survive the Xiaoming Trap filter to form the top 3 evidence-backed product concepts, and which single product direction should we validate first with a concrete 3-phase MVP plan?",
+  "trigger": [
+    "Having a CSV or JSON table of raw pain points from startup-idea-hunter-skill (such as ideas_27_Oct.csv) and needing to pick the best direction to build",
+    "Screening candidate startup or micro-SaaS ideas against the Easy-Vibe Xiaoming Trap, 5-tier alternative solution matrix, and need tiers",
+    "Reframing ordinary feature ideas into high-willingness-to-pay product concepts via horizontal segmentation, vertical emotion timelines, and 3-phase MVP planning"
+  ],
+  "decision": [
+    "Commit to 1 primary verifiable product direction (COMMIT_AND_VALIDATE) backed by a 3-phase MVP plan, bottom-up TAM, and 20-item checklist",
+    "Retain 2 backup evidence-backed product concepts (KEEP_AS_BACKUP_CONCEPT), narrow broad segments (REFINE_NICHE_SEGMENT), and discard Xiaoming Trap or desire/vitamin ideas (DROP_XIAOMING_TRAP)"
+  ],
+  "evidence": [
+    "Hunter CSV export (STT, verbatim quote, persona context & Input->Output AI mapping, source URL, date, Easy-Vibe note) or Hunter JSON clue datasets",
+    "Multi-channel behavioral signals showing users already paying freelancers, fighting clunky incumbents, or stitching manual spreadsheets",
+    "Horizontal sub-segment comparisons and vertical daily context/emotion timelines (fear, anxiety, helplessness, loneliness, anger, regret)"
+  ],
+  "success_measure": "Clusters raw clues into distinct opportunities, scores each across the 4 Easy-Vibe screening gates (5-Criteria + Need Tier, Xiaoming Trap Audit, 5-Tier Alternative Matrix, Horizontal & Founder-Fit Score), produces 3 evidence-backed reframed product concepts, and generates a complete verifiable MVP dossier (One-Person-One-Job-One-Entry positioning, 3-phase roadmap, 3 solo-founder concern mitigations, bottom-up TAM, 6-moat selection, 5-round AI dialogue prompts, and 20-item Appendix F checklist)",
+  "outcome": "Deliver a structured JSON and Markdown Easy-Vibe Idea Screening & Value Reframing Dossier containing 3 evidence-backed product concepts and 1 verifiable MVP direction",
+  "intended_users": [
+    "AI engineers",
+    "indie hackers",
+    "product managers",
+    "startup founders",
+    "Easy-Vibe learners"
+  ],
+  "input_types": [
+    "CSV clue export from startup-idea-hunter-skill (e.g. ideas_27_Oct.csv)",
+    "JSON clue or scorecard file from startup-idea-hunter-skill",
+    "Raw pain point list with quotes, contexts, and current workarounds"
+  ],
+  "output_artifacts": [
+    "Structured JSON screening dossier with clustered opportunities, top 3 product concepts, and 1 verifiable MVP plan",
+    "Comprehensive Markdown report with Horizontal Segmentation, Vertical Emotion Timelines, Value Reframing tables, 3-Phase MVP Roadmap, and 20-Item Demand Checklist"
+  ],
+  "use_cases": [
+    "Direct ingestion and clustering of Hunter CSV/JSON pain-point tables into deduplicated opportunity clusters",
+    "Xiaoming Trap auditing (incumbent sufficiency, behavioral friction, free substitution) and 5-tier alternative solution scoring",
+    "Horizontal user segmentation, vertical context/emotion timeline mapping, and value reframing into 3 evidence-backed product concepts",
+    "3-phase MVP roadmap generation, solo-founder concern mitigation, bottom-up TAM sizing, 6-moat analysis, and 20-item demand verification"
+  ],
+  "examples": [
+    {
+      "invocation": "/startup-idea-screener-skill --input ideas-explore/ideas_27_Oct.csv --output output/screening-dossier.json --markdown output/screening-dossier.md",
+      "description": "Cluster and screen the 29 pain points in ideas_27_Oct.csv into 3 evidence-backed product concepts and 1 verifiable MVP plan"
+    },
+    {
+      "invocation": "/startup-idea-screener-skill Screen the clues from startup-idea-hunter-skill using Easy-Vibe finding-great-idea and recommend the #1 direction to build",
+      "description": "Apply the Xiaoming Trap filter, horizontal segmentation, vertical emotion timeline, and value reframing to pick the best startup direction"
+    }
+  ],
+  "permissions_systems": [
+    "Read local CSV or JSON clue files",
+    "Write local JSON and Markdown screening reports",
+    "Zero external network calls or third-party dependencies required"
+  ],
+  "typical_completion_time": "1-3 minutes",
+  "compatibility": {
+    "declared": [
+      "antigravity",
+      "claude-code",
+      "cline",
+      "codex",
+      "cursor",
+      "factory",
+      "gemini",
+      "github-copilot",
+      "goose",
+      "junie",
+      "kilo-code",
+      "kiro",
+      "opencode",
+      "roo-code",
+      "trae",
+      "universal",
+      "windsurf"
+    ],
+    "certified": []
+  },
+  "environment": {
+    "documentation_sources": [
+      "Easy-Vibe Stage 1 Finding a Great Idea (finding-great-idea) methodology and Appendices A-F in references/"
+    ],
+    "data_sources": [
+      "CSV or JSON clue files generated by startup-idea-hunter-skill or user-collected pain points"
+    ],
+    "required_capabilities": [
+      "Python 3.9+ standard library",
+      "Local file read/write access"
+    ],
+    "readiness_checks": [
+      "Input CSV or JSON file exists and contains at least one valid pain clue row or object"
+    ]
+  },
+  "risk": {
+    "tier": "low",
+    "permissions": [
+      "Read local CSV and JSON files",
+      "Write local JSON and Markdown output files"
+    ],
+    "mutation_boundary": "read-only",
+    "approval_required": []
+  },
+  "software_mutation": {
+    "applies": false
+  },
+  "data_interfaces": {
+    "applies": false
+  },
+  "semantic_recon": {
+    "applies": false,
+    "sources": []
+  },
+  "semantic_contract": {
+    "applies": false
+  },
+  "routing_tests": {
+    "should_trigger": [
+      "Screen the pain points in ideas_27_Oct.csv using Easy-Vibe finding-great-idea to pick the best startup direction",
+      "Filter these clues from startup-idea-hunter-skill against the Xiaoming Trap and reframe the top 3 product concepts",
+      "Apply horizontal segmentation, vertical emotion timeline, and the 20-item demand checklist to my startup ideas"
+    ],
+    "should_not_trigger": [
+      "Configure a Nginx reverse proxy with Let's Encrypt SSL",
+      "Write a PyTorch convolutional neural network for MNIST",
+      "Migrate a PostgreSQL database schema using Alembic"
+    ]
+  },
+  "support_tier": "supported"
+}

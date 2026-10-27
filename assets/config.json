@@ -1,0 +1,71 @@
+{
+  "_instructions": "Default configuration, scoring weights, Xiaoming Trap rules, 5-tier alternative solution matrix, and Appendix F 20-item checklist for startup-idea-screener-skill.",
+  "skill": "startup-idea-screener-skill",
+  "version": "1.0.0",
+  "criteria_weights": {
+    "frequency": 0.20,
+    "pain_level": 0.25,
+    "current_workaround": 0.20,
+    "willingness_to_pay": 0.25,
+    "market_size": 0.10
+  },
+  "need_tier_multipliers": {
+    "pain": 1.15,
+    "gratification": 1.00,
+    "desire": 0.75
+  },
+  "alternative_solution_tiers": {
+    "tier_1_silent_endurance": {
+      "label": "No current solution (users silently endure)",
+      "opportunity": "Potentially large, but requires expensive market education",
+      "score_modifier": -3.0
+    },
+    "tier_2_clumsy_manual_patch": {
+      "label": "Clumsy manual workaround (Excel, copy-paste, manual typing, human freelancers)",
+      "opportunity": "Golden opportunity (Sweet Spot) — users already spend time/money",
+      "score_modifier": 8.0
+    },
+    "tier_3_multi_tool_stitching": {
+      "label": "Stitching multiple tools (Tool A + Tool B + Tool C)",
+      "opportunity": "High-value workflow integration & automation opportunity",
+      "score_modifier": 6.5
+    },
+    "tier_4_unsatisfied_incumbent": {
+      "label": "Mature product exists, but users complain about specific friction",
+      "opportunity": "Requires sharp 10x wedge on the broken step",
+      "score_modifier": 2.0
+    },
+    "tier_5_satisfied_incumbent": {
+      "label": "Mature product exists and users are satisfied",
+      "opportunity": "Low opportunity without disruptive innovation for an ignored segment",
+      "score_modifier": -15.0
+    }
+  },
+  "xiaoming_trap_thresholds": {
+    "max_safe_trap_risk": 9.0,
+    "commit_min_final_score": 78.0,
+    "backup_min_final_score": 65.0,
+    "drop_max_final_score": 52.0
+  },
+  "six_moats": [
+    "network_effects",
+    "data_accumulation",
+    "brand_mindshare",
+    "scale_economy",
+    "technical_ip",
+    "switching_costs"
+  ],
+  "six_core_emotions": [
+    "fear",
+    "anxiety",
+    "helplessness",
+    "loneliness",
+    "anger",
+    "regret"
+  ],
+  "preorder_conversion_gates": {
+    "strong_go_min_pct": 10.0,
+    "refine_min_pct": 5.0,
+    "kill_below_pct": 5.0
+  }
+}

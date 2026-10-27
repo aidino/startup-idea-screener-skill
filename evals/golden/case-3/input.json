@@ -1,0 +1,43 @@
+{
+  "niche": "Enterprise ERP & Agency Reporting Workflows",
+  "clues": [
+    {
+      "id": "c1",
+      "title": "Auditors spend 4+ hours manually copying commercial lease clauses into Excel",
+      "quote": "He'll spend 4+ hours going through lease documents, copying numbers into Excel, double-checking calculations that could easily be automated.",
+      "persona_context": "Small audit firm CPA preparing ASC 842 / IFRS 16 lease schedules",
+      "input_data": "Multi-page commercial lease PDFs and amendments",
+      "output_data": "ASC 842 amortization Excel workbook with clickable citation links to each PDF clause",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/Accounting/comments/1l5bqji/married_to_cpa_amazed_how_much_you_guys_do/",
+      "source_date": "2025-06-07",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.2,
+        "pain_level": 4.8,
+        "current_workaround": 4.6,
+        "willingness_to_pay": 4.8,
+        "market_size": 4.0
+      }
+    },
+    {
+      "id": "c2",
+      "title": "Agency account managers lose 30 hours/month screenshotting GA4 and Meta Ads into Google Slides",
+      "quote": "When I was doing this manually it was 2-3 hours per client per month. Multiply by 10 clients and you've lost a full work week to copy-pasting into Google Slides.",
+      "persona_context": "B2B digital marketing agency account manager",
+      "input_data": "CSV exports from GA4, Meta Ads, LinkedIn + 3 bullet points from AM",
+      "output_data": "Branded client Google Slides deck with standardized charts and executive narrative",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/DigitalMarketing/comments/1t3s37n/how_long_does_it_take_you_build_client_reports/",
+      "source_date": "2026-05-04",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.0,
+        "pain_level": 4.3,
+        "current_workaround": 4.4,
+        "willingness_to_pay": 4.4,
+        "market_size": 4.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "startup-idea-screener-skill",
+  "owner": {
+    "name": "aidino"
+  },
+  "plugins": [
+    {
+      "name": "startup-idea-screener-skill",
+      "source": "./",
+      "description": "Screen, cluster, and reframe raw startup pain points from startup-idea-hunter-skill (CSV or JSON) into 3 evidence-backed product concepts and 1 verifiable MVP direction using the Easy-Vibe Stage 1B methodology."
+    }
+  ]
+}

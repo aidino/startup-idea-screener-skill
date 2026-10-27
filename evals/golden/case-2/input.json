@@ -1,0 +1,81 @@
+{
+  "niche": "Parenting & School Communication Screening",
+  "clues": [
+    {
+      "id": "c1",
+      "title": "Parents pay repeat Fiverr gigs for customized printable kids worksheets",
+      "quote": "Every printable worksheet, kids worksheet, and activity sheet is delivered in PDF, gig selling with hundreds of reviews.",
+      "persona_context": "Parents buying custom printable study sheets for elementary kids",
+      "input_data": "Child age, weak math/reading topic, and interest theme",
+      "output_data": "Ready-to-print personalized PDF activity worksheet",
+      "channel": "upwork_fiverr_repetitive_jobs",
+      "source_url": "https://www.fiverr.com/jeremiah_gerald/design-kids-activity-sheet-or-worksheet",
+      "source_date": "2026-10-01",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.2,
+        "pain_level": 4.4,
+        "current_workaround": 4.5,
+        "willingness_to_pay": 4.5,
+        "market_size": 4.2
+      }
+    },
+    {
+      "id": "c2",
+      "title": "Single mom overwhelmed by screen-time battles during evening housework",
+      "quote": "When work is busy or I'm overwhelmed with housework, I usually end up caving and letting him play games until I'm done. He gets extremely agitated when it's time to turn it off.",
+      "persona_context": "Single working mother of a 7-year-old boy",
+      "input_data": "Household items available + 30-minute chore window + child mood",
+      "output_data": "Audio-guided offline mission + zero-meltdown screen transition script",
+      "channel": "reddit_community_pain",
+      "source_url": "https://www.reddit.com/r/Parenting/comments/1iflrti/how_do_you_control_screen_time/",
+      "source_date": "2025-02-02",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.8,
+        "pain_level": 4.5,
+        "current_workaround": 3.5,
+        "willingness_to_pay": 3.5,
+        "market_size": 4.5
+      }
+    },
+    {
+      "id": "c3",
+      "title": "Too many school apps (ClassDojo, Seesaw, PowerSchool) overwhelming parents",
+      "quote": "The number of different apps they use for grades and communication is ridiculous. First off, we teachers don't like that we have to have four apps to get in touch with parents.",
+      "persona_context": "Parents with multiple kids across different teachers and school apps",
+      "input_data": "Notifications and emails from 4-6 school apps",
+      "output_data": "Single weekly family action digest and .ics calendar feed",
+      "channel": "capterra_low_star_reviews",
+      "source_url": "https://www.reddit.com/r/daddit/comments/1ovjsmz/school_apps_are_destroying_us/",
+      "source_date": "2025-11-12",
+      "need_tier": "pain",
+      "scores": {
+        "frequency": 4.2,
+        "pain_level": 4.0,
+        "current_workaround": 3.6,
+        "willingness_to_pay": 3.2,
+        "market_size": 4.4
+      }
+    },
+    {
+      "id": "c4",
+      "title": "Generic baby growth percentile chart tracker",
+      "quote": "I have a free version of Baby Growth Chart Percentile with an optional tip jar.",
+      "persona_context": "Casual new parent logging height and weight",
+      "input_data": "Manual height/weight numbers",
+      "output_data": "Percentile curve",
+      "channel": "indie_hackers_product_hunt",
+      "source_url": "https://www.indiehackers.com/post/how-a-new-father-built-an-ios-app-for-other-new-parents-8ofhcQii8KUKmeumm2ph",
+      "source_date": "2026-10-01",
+      "need_tier": "desire",
+      "scores": {
+        "frequency": 2.5,
+        "pain_level": 1.8,
+        "current_workaround": 2.0,
+        "willingness_to_pay": 1.5,
+        "market_size": 4.0
+      }
+    }
+  ]
+}

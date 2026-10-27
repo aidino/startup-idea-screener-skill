@@ -1,0 +1,314 @@
+{
+  "artifacts": [
+    {
+      "id": "claude_plugin_marketplace_json",
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "0547a13787fe4381080284b5ca4c1eaab05004a5dc0434255cf596293fbab168",
+      "type": "package_file"
+    },
+    {
+      "id": "claude_plugin_plugin_json",
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "fe040b48a448bade8cc0f288213fc3b8700b3f96c7a6b5a75b791883c1f14624",
+      "type": "package_file"
+    },
+    {
+      "id": "gitignore",
+      "path": ".gitignore",
+      "sha256": "779bb0333aae0dde0b72fa3397dc786d27bf2be21f41057ed6310da73620baae",
+      "type": "package_file"
+    },
+    {
+      "id": "agents_document",
+      "path": "AGENTS.md",
+      "sha256": "d1ff0edc11adcf4d458cc8c08ee0eb3a558b5ecc0ac493c4a2bbfe1d7b2d4508",
+      "type": "companion_instruction"
+    },
+    {
+      "id": "readme_md",
+      "path": "README.md",
+      "sha256": "e0e7300562d4a4e14b5128175e7b0757b9e68695cd8bc38a1ee08fa96083e801",
+      "type": "package_file"
+    },
+    {
+      "id": "skill_document",
+      "path": "SKILL.md",
+      "sha256": "39ef03bd0d8bc5b20f2eaf0aa66e32b847cd04d1916e8d9d8d5355291be01868",
+      "type": "instruction"
+    },
+    {
+      "id": "verification_md",
+      "path": "VERIFICATION.md",
+      "sha256": "93e5d79b8b6380d55f3a14778a7c5b036364b1edf505245d4529d0285cabbcdc",
+      "type": "package_file"
+    },
+    {
+      "id": "assets_config_json",
+      "path": "assets/config.json",
+      "sha256": "fd92b369e82244e5b3e8da6de3eb7f82c8326d1987d153bb2c81e95e85db5906",
+      "type": "asset"
+    },
+    {
+      "id": "discovery_json",
+      "path": "discovery.json",
+      "sha256": "c9669ceecc55d4c8c1eeae05eb40da7a3313c014956f0a2e114222b45f6814e9",
+      "type": "package_file"
+    },
+    {
+      "id": "evals_caliper_startup_idea_screener_skill_eval_yaml",
+      "path": "evals/caliper/startup-idea-screener-skill.eval.yaml",
+      "sha256": "afa45916e3979ea8db4df06092b392907b679f6d2714bbabd06cef12bcc1d54b",
+      "type": "package_file"
+    },
+    {
+      "id": "case_1_expected",
+      "path": "evals/golden/case-1/expected.json",
+      "sha256": "7779fa5599a073bb24f0fe5688e2793594fa111127d9a69bdefbe6e880070c2d",
+      "type": "expected_output"
+    },
+    {
+      "id": "case_1_input",
+      "path": "evals/golden/case-1/input.json",
+      "sha256": "50e2413aa6893acb5c64badaaf694a55f03708f911979697061f5f605ccca61d",
+      "type": "golden_input"
+    },
+    {
+      "id": "case_2_input",
+      "path": "evals/golden/case-2/input.json",
+      "sha256": "ddf156143473e8e539385ecacaee03986ebb081e070c744fcb20bf20c79c9b90",
+      "type": "golden_input"
+    },
+    {
+      "id": "case_3_input",
+      "path": "evals/golden/case-3/input.json",
+      "sha256": "0f7335d6955a699be4c6c75315522436ad2b863a3921747f3af73d6be253f601",
+      "type": "golden_input"
+    },
+    {
+      "id": "evals_startup_idea_screener_skill_eval_md",
+      "path": "evals/startup-idea-screener-skill.eval.md",
+      "sha256": "d154a284b55a43185bc5eff445fc0759e1d9255e102b390ca590ee5091bb0c9d",
+      "type": "eval_spec"
+    },
+    {
+      "id": "install_ps1",
+      "path": "install.ps1",
+      "sha256": "c8c07f7c94e2d56e036eb63c8a1d3f3c0e9fdcec466792f59711dbb09a9a82ed",
+      "type": "package_file"
+    },
+    {
+      "id": "install_sh",
+      "path": "install.sh",
+      "sha256": "38d026f4d6309dbfe1bcfe46bb20adfe5e728312705ce00bd70a1bd7ead4c19d",
+      "type": "package_file"
+    },
+    {
+      "id": "interview_json",
+      "path": "interview.json",
+      "sha256": "6e137bacb9f7c2afdf5f5e46e4679e7b4c2828edc571474986423d053872651c",
+      "type": "package_file"
+    },
+    {
+      "id": "references_finding_great_idea_playbook_md",
+      "path": "references/finding-great-idea-playbook.md",
+      "sha256": "3a07dd1f39c2b0113429d2f47426732d774494e8acefa93fe72ef7eecda85df2",
+      "type": "reference"
+    },
+    {
+      "id": "references_screening_and_reframing_math_md",
+      "path": "references/screening-and-reframing-math.md",
+      "sha256": "17e76b118369aae5492e88f3f6cbb1b6eb63f53b08f7d03037b176f3977440ec",
+      "type": "reference"
+    },
+    {
+      "id": "references_troubleshooting_md",
+      "path": "references/troubleshooting.md",
+      "sha256": "1e0f8d0d76f47c0bff965333791bff125644890fb4778506e9f82f33ad6a497a",
+      "type": "reference"
+    },
+    {
+      "id": "scripts_dependency_health_py",
+      "path": "scripts/dependency_health.py",
+      "sha256": "7c8beebbc46ff1a7e3ef800626e0c7a377b0c27a6c00b98a9eb2688ed8a4285e",
+      "type": "script"
+    },
+    {
+      "id": "scripts_evolve_py",
+      "path": "scripts/evolve.py",
+      "sha256": "5f35ea818449d0dd51f7d6d0359897659425cc4f2a8dcb66fe6a83540e3a2cb5",
+      "type": "script"
+    },
+    {
+      "id": "scripts_ingest_hunter_clues_py",
+      "path": "scripts/ingest_hunter_clues.py",
+      "sha256": "c277ee4b78d35825b69fa9a6b0f91e053d9742e27f70a325d64040057c0a9b43",
+      "type": "script"
+    },
+    {
+      "id": "scripts_review_staleness_py",
+      "path": "scripts/review_staleness.py",
+      "sha256": "706b04f17a6936305017fa94da3840eeb2012fcca661ee6dca11c0089035dab1",
+      "type": "script"
+    },
+    {
+      "id": "scripts_run_evals_py",
+      "path": "scripts/run_evals.py",
+      "sha256": "7a2776a33d1c90e76bb1571413ce4996fc1938775509c4215aaa1fe7409c9202",
+      "type": "script"
+    },
+    {
+      "id": "pipeline",
+      "path": "scripts/run_pipeline.py",
+      "sha256": "a77776b01ba4d2b8b94da08872e2e62a64432b96be8745a1510c88e6714b518d",
+      "type": "script"
+    },
+    {
+      "id": "scripts_schema_drift_py",
+      "path": "scripts/schema_drift.py",
+      "sha256": "4d15b1fd14324c7305e4017b91b2b35ee90e589e007c7eb1bad7f1ddd4d96687",
+      "type": "script"
+    },
+    {
+      "id": "scripts_screen_and_reframe_py",
+      "path": "scripts/screen_and_reframe.py",
+      "sha256": "0e47be74bc0d770a190d989809bc803c322fa99fe4b5622640495c57383c2d23",
+      "type": "script"
+    },
+    {
+      "id": "scripts_skill_document_py",
+      "path": "scripts/skill_document.py",
+      "sha256": "ec86981b75ea29263c9e71295f284067096754bbc4b294e7f2e11560830e61b5",
+      "type": "script"
+    },
+    {
+      "id": "scripts_staleness_check_py",
+      "path": "scripts/staleness_check.py",
+      "sha256": "b3be7f9e4832d42d301a82395dba08383cf417535e8e42c2e2f73b6ea98a192b",
+      "type": "script"
+    },
+    {
+      "id": "scripts_success_ledger_py",
+      "path": "scripts/success_ledger.py",
+      "sha256": "f0eee7d0deac4dca979c325ff3920231cdc6ad0a1263b5d801dd93c0e47b036f",
+      "type": "script"
+    },
+    {
+      "id": "scripts_wiki_maintenance_py",
+      "path": "scripts/wiki_maintenance.py",
+      "sha256": "e8b65667530f7b78aece53b3fd2c49e05b53767e2d6ef1f98ff37db58b04ce14",
+      "type": "script"
+    },
+    {
+      "id": "startup_idea_screener_skill",
+      "path": "startup-idea-screener-skill",
+      "sha256": "3fb946afeb54eaa642cbcc1d547285ce2a1cfff7e09cc8b4509724e7fdd75bfe",
+      "type": "package_file"
+    },
+    {
+      "id": "startup_idea_screener_skill_ps1",
+      "path": "startup-idea-screener-skill.ps1",
+      "sha256": "8ea2a07761052e8c6cfc65bc5e70460fefebd83970d0cd338bac94a27b999e3d",
+      "type": "package_file"
+    },
+    {
+      "id": "wiki_readme_md",
+      "path": "wiki/README.md",
+      "sha256": "750a1db3ff19ec39b7caf0c4f63a32c83dc854349a201f8da12fecfc61ec207c",
+      "type": "package_file"
+    },
+    {
+      "id": "wiki_index_md",
+      "path": "wiki/index.md",
+      "sha256": "ff8db0bddf99128815a6d4ecc26c12f4d95b6c8cb05ac02696bdd9ce7e0dd753",
+      "type": "package_file"
+    },
+    {
+      "id": "wiki_logs_md",
+      "path": "wiki/logs.md",
+      "sha256": "e95f791330b8702b1cd99d271e9f577738ebb7354863422de2338d5091fe7330",
+      "type": "package_file"
+    },
+    {
+      "id": "wiki_skill_impact_md",
+      "path": "wiki/skill-impact.md",
+      "sha256": "a79d68179ab12324404601d5a4360f8d6d77b5e22eb87f218b32d00a41334756",
+      "type": "package_file"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "every_expected_is_reachable",
+      "severity": "error"
+    },
+    {
+      "id": "deterministic_multistep_has_orchestrator",
+      "severity": "error"
+    },
+    {
+      "id": "semantic_recon_contracts_ready",
+      "severity": "error"
+    }
+  ],
+  "edges": [
+    {
+      "from": "case_1_input",
+      "relation": "consumed_by",
+      "to": "pipeline"
+    },
+    {
+      "from": "case_2_input",
+      "relation": "consumed_by",
+      "to": "pipeline"
+    },
+    {
+      "from": "case_3_input",
+      "relation": "consumed_by",
+      "to": "pipeline"
+    },
+    {
+      "from": "pipeline",
+      "relation": "compared_against",
+      "to": "case_1_expected"
+    }
+  ],
+  "gates": [
+    {
+      "id": "spec",
+      "inputs": [
+        "skill_document",
+        "package_index"
+      ]
+    },
+    {
+      "id": "security",
+      "inputs": [
+        "package"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "inputs": [
+        "scripts",
+        "dependency_manifests"
+      ]
+    },
+    {
+      "id": "eval_schema",
+      "inputs": [
+        "eval_specs",
+        "golden_cases",
+        "eval_runner"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "semantic_recon": {
+    "reasons": [],
+    "sources": [],
+    "status": "NOT_REQUIRED"
+  },
+  "skill": "startup-idea-screener-skill",
+  "workflow": {
+    "kind": "deterministic"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "authority_owner": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "user-session-owner-approval"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "dino"
+  },
+  "created_at": "2026-10-27T08:25:00Z",
+  "created_by": "dino",
+  "decision_consequence": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "easy-vibe-stage1-finding-great-idea",
+      "user-approval-duyet"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "Cluster raw pain points from startup-idea-hunter-skill (CSV or JSON), eliminate Xiaoming-trap and desire/vitamin ideas, synthesize 3 evidence-backed product concepts via horizontal segmentation and vertical context/emotion timelines, and commit to 1 verifiable MVP direction with a 3-phase roadmap, bottom-up TAM, and 20-point validation checklist"
+  },
+  "decision_consumer": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "user-statement-easy-vibe-course"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "AI engineers, indie hackers, product builders, and solo founders screening raw pain clues harvested by startup-idea-hunter-skill before writing MVP code"
+  },
+  "environment_requirements": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "local-python-stdlib-environment"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "Python 3.9+ standard library only (csv, json, re, math, pathlib, argparse) for deterministic CSV/JSON ingestion, clue clustering, 4-gate screening, value reframing, and JSON/Markdown report generation"
+  },
+  "failure_impact": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "easy-vibe-xiaoming-200k-rmb-loss-case-study"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "Falling into the Xiaoming Trap: spending months building a polished product for a broad audience where existing free tools suffice, manual user logging creates high friction, and 7-day retention and paid conversion collapse"
+  },
+  "history": [
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "objective"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "decision_consumer"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "decision_consequence"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "success_measure"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "failure_impact"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "environment_requirements"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "authority_owner"
+    },
+    {
+      "action": "confirm",
+      "actor": "dino",
+      "at": "2026-10-27T08:30:00Z",
+      "field": "semantic_contract_applies"
+    }
+  ],
+  "objective": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "easy-vibe-stage1-finding-great-idea",
+      "ideas-27-oct-csv-artifact"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "Screen, cluster, and reframe raw pain points from startup-idea-hunter-skill (CSV or JSON) into 3 evidence-backed product concepts and 1 verifiable MVP direction using the Easy-Vibe Finding a Great Idea methodology"
+  },
+  "problem": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "user_statement",
+      "ideas-explore/ideas_27_Oct.csv"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:25:00Z",
+    "value": "After hunting raw complaints and clues from forums using startup-idea-hunter-skill, builders have dozens of scattered pain points and need a structured Easy-Vibe Stage 1B skill to filter out Xiaoming Traps, cluster clues, apply horizontal segmentation and vertical context/emotion analysis, reframe value into 3 product concepts, and build a 3-phase verifiable MVP plan"
+  },
+  "schema_version": 1,
+  "semantic": {
+    "ambiguity_behavior": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    },
+    "definitions": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    },
+    "freshness_policy": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    },
+    "grain_unit": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    },
+    "source_precedence": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    },
+    "time_semantics": {
+      "confirmed_by": null,
+      "evidence": [],
+      "proposed_by": null,
+      "status": "unknown",
+      "updated_at": null,
+      "value": null
+    }
+  },
+  "semantic_contract_applies": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "offline-clue-screening-and-reframing-methodology"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": false
+  },
+  "success_measure": {
+    "confirmed_by": "dino",
+    "evidence": [
+      "easy-vibe-finding-great-idea-expected-outputs",
+      "user-approval-duyet"
+    ],
+    "proposed_by": null,
+    "status": "confirmed",
+    "updated_at": "2026-10-27T08:30:00Z",
+    "value": "Ingests Hunter CSV or JSON clues, clusters related pain points, evaluates Xiaoming Trap risks and 5-tier workaround maturity, outputs 3 evidence-backed reframed product concepts (with horizontal segmentation and vertical emotion timelines) plus 1 verifiable product direction (with One-Person-One-Job-One-Entry positioning, 3-phase MVP plan, 3 concern mitigations, bottom-up TAM, 6-moat analysis, and the 20-item Appendix F demand checklist)"
+  },
+  "updated_at": "2026-10-27T08:30:00Z"
+}
